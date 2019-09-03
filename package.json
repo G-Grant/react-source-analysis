@@ -1,0 +1,22 @@
+{
+    "name": "react-source-analysis",
+    "version": "1.0.0",
+    "description": "React 源码分析，基于 4.13.0 版本",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "start": "vuepress dev docs",
+        "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/G-Grant/react-source-analysis.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/G-Grant/react-source-analysis/issues"
+    },
+    "homepage": "https://github.com/G-Grant/react-source-analysis#readme"
+}
